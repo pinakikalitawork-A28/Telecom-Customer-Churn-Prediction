@@ -48,6 +48,7 @@ Raw Data → SQL Server (Cleaning & Views) → Python / Random Forest → Predic
 ## 📊 Dashboard Pages
 
 ### Page 1 — Churn Analysis Summary
+![Summary Dashboard](assets/Summary_Dashboard.png)
 High-level KPIs and breakdown of churn patterns across demographics, account info, geography, and services used.
 
 | Metric | Value |
@@ -67,6 +68,7 @@ High-level KPIs and breakdown of churn patterns across demographics, account inf
 Drill-down reference table showing granular churn reasons — Competitor-related reasons dominate (better devices, better offers, higher speeds).
 
 ### Page 3 — Churn Prediction
+![Churn Prediction](assets/Churn_Prediction.png)
 ML-powered prediction page identifying the 378 customers most at risk of churning.
 
 **Predicted Churner Profile:**
