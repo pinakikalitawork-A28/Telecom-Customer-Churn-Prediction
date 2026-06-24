@@ -86,7 +86,11 @@ ML-powered prediction page identifying the 378 customers most at risk of churnin
 - **Notebook:** `churn_prediction_model.ipynb`
 - **Output:** `Predictions.csv` — used as a data source in Power BI
 
-> **Note:** Model accuracy and classification report available in the notebook.
+> **Note:** 
+- **Accuracy:** 84.19%  
+- **F1-Score (Churn Class):** 0.71  
+- **Precision (Churn Class):** 0.78  
+- **Recall (Churn Class):** 0.65
 
 **Features used:** Demographics (gender, age, marital status), account info (contract type, payment method, tenure), service usage (internet type, streaming, online security, etc.), financial metrics (monthly charge, total revenue, total refunds)
 
